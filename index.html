@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Game</title>
-        <link rel="stylesheet" href="css/style.css" />
-        <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
-    </head>
-    <body>
-      <div class="my_header">HEADER</div>            
-         <div>
-               
-         </div>
-    </body>
+
+<head>
+	<title>Game</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+</head>
+
+<body>
+      <!-- <div class="my_header">HEADER</div> -->	<div class="wrapper">
+		<div class="game">
+			<div class="game__body">
+				<div class="game__items">
+					<div class="game__text">
+						Result: <span></span>
+					</div>
+				</div>
+				<div class="game__counter"></div>
+			</div>
+			<div class="game__win">You won!</div>
+		</div>
+		<div class="info">
+			<a href="#info" title="Rules of the game" class="info__icon">i</a>
+			<div id="info" class="info__body">
+				<a href="#" class="info__close">X</a>
+				<div class="info__text">
+					<p>You need to keep the cursor of the mouse away from the quadrates for one minute.</p>
+					<p>The game starts as soon as you put the cursor of the mouse at the gray field.</p>
+					<p>If you go out of the field the game will be restarted.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
 </html>
